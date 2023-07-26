@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: lavender;
+    height: 85px;
+    width: 100%;
+}
+.icon img{
+position: relative;
+margin-left: 20px;
+}
+.icon a{
+    position: absolute;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1rem;
+    top: 20px;
+    left: 0px;
+}
+.logo{
+    color: rgb(30, 30, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+.logo span{
+    color: lightcoral;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+}
+li a.active{
+    color: rgb(36, 36, 248);
+}
+li a:hover{
+    color: coral;
+}
+.head h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.butts{
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 8%;
+}
+.butts .first{
+position: relative;
+padding: 10px 40px;
+border-radius: 15px;
+outline: none;
+background: rgb(122, 122, 252);
+color: aliceblue;
+transition: 1.5s;
+}
+.butts .first:hover{
+transform: scale(1.2);
+}
+.butts .second{
+    position: absolute;
+    padding: 10px 40px;
+    border-radius: 15px;
+    outline: none;
+    left: 19%;
+}
+.head h4{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.section1{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+gap: 1rem;
+cursor: pointer;
+}
+.section1 .card{
+    transition: all 1s;
+    box-shadow: 5px 5px 10px rgb(214, 213, 213);
+}
+.section1 .card:hover{
+    transform: translateY(-12px);
+}
+.section1 .card .info{
+    background-color: rgb(192, 191, 191);
+    text-align: center;
+}
+.section1 .card .infoclr{
+background-color: rgb(253, 225, 177);
+}
+.section1 .card img{
+    width: 500px;
+    height: 350px;
+    width: 100%;
+    border-radius: 6px;
+}
+.section1 .card h2 p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.section1 span{
+    color: red;
+}
+.section1 span.two{
+    color: green;
+}

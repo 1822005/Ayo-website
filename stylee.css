@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: lavender;
+    height: 85px;
+    width: 100%;
+}
+.icon a{
+    position: absolute;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1rem;
+    top: 15px;
+    left: 0px;
+}
+.logo{
+    color: rgb(30, 30, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+.logo span{
+    color: lightcoral;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu{
+    display: none;
+}
+.navbar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+}
+li a.active{
+    color: rgb(36, 36, 248);
+}
+li a:hover{
+    color: coral;
+}
+.section1{
+    background-image: url(/img/ciudad-maderas-MXbM1NrRqtI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.search{
+    position: relative;
+    margin: 30px auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.search input{
+    position: relative;
+    padding: 15px 5px;
+    border-radius: 6px;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+.section1 .search img{
+    position: absolute;
+    cursor: pointer;
+    right: 0;
+    top: 5%;
+    background-color: rgb(49, 153, 250);
+}
+.section1 h2{
+    padding-left: 30px;
+    padding-top: 80px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2rem;
+}
+.section1 h1{
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 40px;
+    color: rgb(252, 186, 65);
+    font-size: 3rem;
+}
+.section1 h3{
+    padding-left: 40px;
+    padding-top: 50px;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.section1 .agent{
+    position: relative;
+    margin: 5% auto;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.section1 .agent input{
+    position: relative;
+    padding: 12px 2px;
+    border-radius: 6px;
+    outline: none;
+    width: 50%;
+    font-size: 16px;
+}
+.section1 .agent img{
+    position: absolute;
+    cursor: pointer;
+    right: 25%;
+    background-color: rgb(49, 153, 250);
+}
+.section2{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px gray;
+    height: 450px;
+    position: relative;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section2 img{
+width: 8%;
+position: absolute;
+left: 45%;
+}
+.section2 h1{
+    padding-top: 8% ;
+    color: rgb(66, 205, 252);
+
+}
+.section2 p{
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+.section2 button{
+    margin-top: 6%;
+    text-align: center;
+    text-decoration: none;
+    background: rgb(27, 80, 255);
+    padding: 15px 20px;
+    border-radius: 8px;
+    outline: none;
+}
+.section2 button a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+}
+.section3{
+    height: 600px;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px gray;
+    position: relative;
+}
+.section3 img{
+    width: 8%;
+    position: absolute;
+    left: 45%;
+    }
+    .section3 h1{
+        padding-top: 8% ;
+        color: rgb(52, 202, 252);
+    }
+    .section3 p{
+        padding-top: 4%;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+    }
+    .section3 h4{
+        padding-top: 30px;
+    }
+    .section3 button{
+        text-align: center;
+        text-decoration: none;
+        background: rgb(27, 80, 255);
+        padding: 15px 20px;
+        border-radius: 8px;
+        outline: none;
+    }
+    .section3 button a{
+        color: whitesmoke;
+        text-decoration: none;
+        font-size: 18px;
+        text-align: center;
+    }
+    .identity{
+        height: 610px;
+        margin-bottom: 25px;
+        box-shadow: 5px 5px 10px rgb(199, 198, 198);
+    }
+    .identity h1{
+        color: rgb(52, 202, 252);
+        padding-bottom: 20px;
+    }
+    .identity input{
+        margin-bottom: 20px;
+    }
+    .identity .identify input{
+        width: 50%;
+        margin-left: 15%;
+        margin-right: 15%;
+        border: none;
+        border-bottom: 2px solid rgb(35, 199, 253);
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .identity button{
+      margin-top: 1%;
+      text-align: center;
+      background: rgb(27, 80, 255);
+      padding: 15px 30px;
+      border-radius: 8px;
+      outline: none;
+      color: whitesmoke;
+      font-size: 20px;
+    }
+    .homes{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        box-shadow: 3px 3px 16px rgba(0,0,0,.7);
+    }
+    .slider2{
+        width: 950px;
+    }
+    .homes .slider2 img{
+        width: 100%;
+        height: 100%;
+        box-shadow: 3px 3px 16px rgba(0,0,0,.7);
+        margin: 10px 10px;
+    }
+    .whizz{
+        width: 100%;
+        background: rgba(1, 1, 73, 0.719);
+        color: white;
+        height: 350px;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: normal;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .whizz .recap{
+        line-height: 30px;
+    }
+    .whizz .two h1{
+     padding-top: 0x;
+    
+    }
+    .whizz .letter input{
+    border: 2px solid rgb(30, 30, 68, 0.719);
+    border-radius: 50px;
+    outline: none;
+    padding: 14px 130px 15px 15px;
+    }
+    .whizz .letter button{
+        margin-top:20px;
+        border-radius: 10px;
+        outline: none;
+        padding: 10px 25px;
+        margin-left: 80px;
+        background-color:#7a7817 ;
+        color:whitesmoke;
+        transition: ease-in-out .4s;
+    }
+    .whizz .letter button:hover{
+        transform: scale(1.2);
+    }
+    footer{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: normal;
+        text-align: center;
+        font: 25px;
+        font-weight: bold;
+        width: 100%;
+        height: 80px;
+        padding-top: 35px;
+    }
+    @media only screen and (max-width: 1100px){
+        .logo{
+            padding-left: 5%;
+        }   
+    }
+        @media only screen and (max-width: 870px) {
+            header{
+                height:80px;
+                position: relative;
+            }
+            .icon a{
+                top: 10px;
+                left: 0px;
+            }
+            .menu{
+                position: absolute;
+                display: block;
+                cursor: pointer;
+                margin-top: 4%;
+                margin-left: 90%;
+            }
+            .menu .line{
+                width: 30px;
+                height: 3px;
+                background: rgb(3, 3, 95);
+                margin: 6px 0;
+             }
+             .nav-bar{
+                position: absolute;
+                width: 100%;
+                top:70px;
+                background: rgb(14, 13, 13);
+                text-align: center;
+                overflow: hidden;
+                transition: 1s;
+             }
+             .nav-bar.activate{
+                height: 330px;
+            }
+             ul{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+                display: block;
+                list-style-type: none;
+                margin-top: 30px;
+                margin-right: 0px;
+                opacity: 0;
+                transition: .5s;
+                
+             }
+             .nav-bar.activate .nav{
+                opacity: 1;
+            }
+             ul li a{
+                text-decoration: none;
+                padding: 12px;
+                display: block;
+             }
+            
+             ul li a.active{
+                color: rgb(8, 8, 197);
+             }
+             ul li a.active:hover{  
+            color: deepskyblue;
+             }
+}
+    @media only screen and (max-width: 880px) {
+        .section1{
+            height: 900px
+        }
+        .section2{
+            height: 350px;
+            align-items: center;
+        }
+        .section3{
+            height: fit-content;
+        }
+          .identity{
+            height: fit-content;
+          }  
+        .whizz{
+            width: 100%;
+            background: rgba(30, 30, 68, 0.719);
+            color: white;
+            height: 700px;
+            font-size: 20px;
+            font-weight: bold;
+            display: block;
+            font-weight: normal;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: center;
+        }
+        .whizz .recap{
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+        .whizz .two{
+            margin-bottom: 20px;
+        }
+        .whizz .two h1{
+         padding-top: 0x;
+        
+        }
+        .whizz .recap h3{
+            padding-top: 35px;
+        }
+        .whizz .h3{
+            margin-bottom: 10px;
+        }
+        .whizz .letter{
+            margin-bottom: 20px;
+        }
+        .whizz .letter input{
+        border: 2px solid rgb(30, 30, 68, 0.719);
+        border-radius: 50px;
+        outline: none;
+        padding: 14px 130px 15px 15px;
+        }
+        .whizz .letter button{
+            margin-top:15px;
+            border-radius: 10px;
+            outline: none;
+            padding: 10px 25px;
+            margin-left: 5%;
+            background-color:#7a7817 ;
+            color:whitesmoke;
+            transition: ease-in-out .4s;  
+        }
+    }
+        @media only screen and (max-width: 600px){
+            .logo{
+                padding-left: 15%;
+            }
+        }
+    
